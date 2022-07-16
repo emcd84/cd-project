@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.AwardsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.awardsHeader {
+    width: 35%;
+}
+
+#awardsHeaderText {
+    font-family: 'Lato', sans-serif;
+    padding-top: 2.5%;
+}
+
+#awardsHeaderText {
+    font-size: 1.5em;
+}
+
+.awards {
+    width: 65%;
+}
+
+#borderLeft {
+    width: 15%;
+    border-top: 3px solid black;
+}
+
+#borderRight {
+    width: 100%;
+    border-top: 3px solid black;
+}
+
+#awardsInstances {
+    padding: 2.5% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

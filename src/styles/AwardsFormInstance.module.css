@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.container {
+    border-top: 3px dotted gray;
+    padding: 3% 0 0 0;
+    margin-top: 2.5%;
+}
+
+#header {
+    font-size: 1.4em;
+    padding-bottom: 1%;
+}
+
+#formContainer {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template: 
+        "name job"
+        "city province"
+        "beginning until"
+        "description description"
+        "button button";
+    column-gap: 1em;
+    row-gap: 0.25em;
+    width: 100%;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    overflow: hidden;
+}
+
+.formLabel {
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.formInput {
+    width: 100%;
+}
+
+#descriptionForm {
+    grid-area: description;
+}
+
+#button {
+    grid-area: button;
+    height: 3em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 2%;
+    border: 1px solid gray;
+}

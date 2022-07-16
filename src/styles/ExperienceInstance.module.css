@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.ExperienceInstance {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15em;
+}
+
+.headerText, .subheaderText, .descriptionText {
+    font-family: 'Lato', sans-serif;
+}
+
+.headerText {
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.subheaderText {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.descriptionText {
+    font-weight: 400;
+    font-size: 1.1em;
+}

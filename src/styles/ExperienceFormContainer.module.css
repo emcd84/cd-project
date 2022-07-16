@@ -1,0 +1,20 @@
+#container {
+    border-bottom: 3px solid black;
+    padding: 3% 0;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#headerText {
+    font-size: 1.4em;
+    padding-bottom: 1%;
+}

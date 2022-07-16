@@ -1,0 +1,40 @@
+.EducationContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.educationInstancesContainer {
+    width: 65%;
+}
+
+.educationHeader {
+    width: 35%;
+}
+
+#educationHeaderText {
+    font-size: 1.5em;
+    padding-top: 2.5%;
+}
+
+#borderContainer {
+    height: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+#borderLeft {
+    width: 15%;
+    border-top: 3px solid black;
+}
+
+#borderRight {
+    width: 100%;
+    border-top: 3px solid black;
+}
+
+.educationInstances {
+    padding: 2.5% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

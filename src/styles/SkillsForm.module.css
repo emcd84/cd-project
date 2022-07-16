@@ -1,0 +1,13 @@
+.container {
+    border-bottom: solid black 3px;
+    padding: 3% 0;
+}
+
+#header {
+    font-size: 1.4em;
+    padding-bottom: 1%;
+}
+
+ .formContainer {
+    overflow: hidden;
+ }

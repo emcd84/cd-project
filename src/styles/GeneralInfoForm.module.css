@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.container {
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    padding: 3% 0;
+}
+
+#header {
+    font-size: 1.4em;
+    padding-bottom: 1%;
+}
+
+.formContainer {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template: 
+        "name occupation"
+        "address postalCode"
+        "city province"
+        "phoneNumber email"
+        "description description";
+    column-gap: 1em;
+    row-gap: 0.25em;
+    width: 100%;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    overflow: hidden;
+}
+
+.formLabel {
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.formInput {
+    width: 100%;
+}
+
+#nameForm {
+    grid-area: name;
+}
+
+#occupationForm {
+    grid-area: occupation;
+}
+
+#addressForm {
+    grid-area: address;
+}
+
+#cityForm {
+    grid-area: city;
+}
+
+#provinceForm {
+    grid-area: province;
+}
+
+#postalCodeForm {
+    grid-area: postalCode;
+}
+
+#phoneNumberForm {
+    grid-area: phoneNumber;
+}
+
+#emailForm {
+    grid-area: email;
+}
+
+#descriptionForm {
+    grid-area: description;
+}
+
+
+

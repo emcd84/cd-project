@@ -1,0 +1,40 @@
+.ExperienceContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.experienceInstancesContainer {
+    width: 65%;
+}
+
+.experienceHeader {
+    width: 35%;
+}
+
+#experienceHeaderText {
+    font-size: 1.5em;
+    padding-top: 2.5%;
+}
+
+#borderContainer {
+    height: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+#borderLeft {
+    width: 15%;
+    border-top: 3px solid black;
+}
+
+#borderRight {
+    width: 100%;
+    border-top: 3px solid black;
+}
+
+.experienceInstances {
+    padding: 2.5% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
